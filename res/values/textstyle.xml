@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 字体颜色:黑色,大小18 -->
+    <style name="text_black_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- 字体颜色:黑色,大小18,携带阴影 -->
+    <style name="text_black_shadow_18sp" parent="@style/font_shadow">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    
+    <!-- 字体颜色:红色,大小18,携带阴影 -->
+    <style name="text_red_shadow_18sp" parent="@style/font_shadow">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    
+    <!-- 字体颜色:黑色,大小16,携带阴影 -->
+    <style name="text_title_shadow_16sp" parent="@style/font_shadow">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3b6400</item>
+    </style>
+
+    <!-- 字体颜色:黑色,大小18 -->
+    <style name="text_white_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="info_long_click">
+        <item>删除信息</item>
+    </string-array>
+    <string-array name="recommend_routes">
+        <item>苏州国际教育园南区</item>
+        <item>苏州市职业大学</item>
+        <item>取消</item>
+    </string-array>
+
+</resources>

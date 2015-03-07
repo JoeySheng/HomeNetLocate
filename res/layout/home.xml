@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/get_info"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/get_info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/all_info"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/all_info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/map_info"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/map_info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/recommend_route"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/recommend_route"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/backup_info"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/backup_info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/restore_info"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/restore_info"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/restore_info1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_selector"
+                android:text="@string/restore_info1"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

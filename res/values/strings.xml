@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">HomeNetLocate</string>
+
+    <!-- common -->
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="exit">确认退出？</string>
+    <string name="check_network_please">请检查网络设置</string>
+    <string name="set_network">设置网络</string>
+
+    <!-- application -->
+    <string name="bmap_init_error">BMapManager初始化错误!</string>
+    <string name="net_error">您的网络出错啦！</string>
+    <string name="search_data_error">输入正确的检索条件！</string>
+    <string name="bmap_key_error">请在 LocateApplication.java文件输入正确的授权Key！</string>
+
+    <!-- home -->
+    <string name="get_info">获取信息</string>
+    <string name="all_info">信息列表</string>
+    <string name="map_info">信息地图</string>
+    <string name="recommend_route">推荐路线</string>
+    <string name="backup_info">备份信息到SD卡locate目录</string>
+    <string name="restore_info">将内存中的信息插入到数据库</string>
+    <string name="restore_info1">将SD卡中的信息插入到数据库</string>
+    <string name="SD_error">请插入SD卡</string>
+    <string name="backup_success">备份成功，请到SD卡的locate目录查看</string>
+    <string name="parse_progress">正在准备数据，请稍后！</string>
+    <string name="backup_progress">正在备份数据</string>
+    <string name="parse_success">准备数据结束，您可以使用啦！</string>
+    <string name="parse_fail">准备数据失败，请重试！</string>
+
+    <!-- get_info -->
+    <string name="longitude">经度</string>
+    <string name="latitude">纬度</string>
+    <string name="get_info_detail">获取经纬度</string>
+    <string name="name">名称</string>
+    <string name="name_empty_hint">请先输入名称</string>
+    <string name="longitude_empty_hint">经度获取失败</string>
+    <string name="latitude_empty_hint">纬度获取失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_fail">保存失败</string>
+    <string name="save_info">保存信息</string>
+
+    <!-- all_info -->
+    <string name="name_result">名称:%1$s</string>
+    <string name="longitude_result">经度:%1$s</string>
+    <string name="latitude_result">纬度:%1$s</string>
+    <string name="time_result">采集时间:%1$s</string>
+    <string name="delete_info">删除该条记录</string>
+
+    <!-- map_info -->
+    <string name="route_plan">线路详细方案</string>
+    <string name="route_search_title">路线查询</string>
+    <string name="route_search_bus">公共交通</string>
+    <string name="route_search_walk">步\u0020\u0020\u0020行</string>
+
+</resources>
